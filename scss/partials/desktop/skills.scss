@@ -1,0 +1,124 @@
+
+.interlude {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  width: 20%;
+}
+
+#skills {
+display:flex;
+align-items: space-around;
+text-align: center;
+
+  h3 {
+    padding: 30px;
+  }
+
+
+  .img-container {
+  img {
+    height: 40px;
+    padding: 5px;
+  }
+
+
+}
+
+
+  #lang-frame {
+    .img-container {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 0.5s linear;
+    }
+
+    #js:hover + .img-container{
+        visibility: visible;
+        opacity: 1;
+      }
+
+  }
+
+  #responsive-web {
+    .img-container {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 0.5s linear;
+    }
+
+    #design:hover + .img-container{
+        visibility: visible;
+        opacity: 1;
+      }
+
+  }
+
+  #database {
+    .img-container {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 0.5s linear;
+    }
+
+    #db:hover + .img-container{
+        visibility: visible;
+        opacity: 1;
+      }
+
+  }
+
+  #devtools {
+    .img-container {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 0.5s linear;
+    }
+
+    #tools:hover + .img-container{
+        visibility: visible;
+        opacity: 1;
+      }
+
+  }
+
+
+
+}
+
+
+
+#js {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  height: 150px;
+  padding: 20px;
+}
+
+#design {
+  margin-top: 20px;
+  margin-bottom: 38px;
+  height: 130px;
+  padding: 20px;
+}
+
+#db {
+  margin-top: 32px;
+  margin-bottom: 20px;
+  height: 130px;
+  padding: 20px;
+}
+
+
+#tools{
+
+  height:180px;
+  padding: 20px;
+
+}
+
