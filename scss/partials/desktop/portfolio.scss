@@ -1,0 +1,85 @@
+#portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+
+#portfolio-items {
+
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+
+  #aircheck {
+    height:600px;
+    width:600px;
+    background: url(/css/aircheck.png) no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    overflow:hidden;
+    border-radius:5px;
+    margin:5% auto 0 auto;
+
+
+  }
+
+
+
+    .titleTag {
+      display: inline-block;
+      border: 1px solid rgba(255,255,255,.3);
+      padding: 2px 5px;
+      border-radius: 5px;
+      margin: 3px 2px;
+      font-weight:900;
+      color:rgba(255,255,255,.85);
+      font-size: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+
+  .tag {
+    display: inline-block;
+    border: 1px solid rgba(255,255,255,.3);
+    padding: 3px 6px;
+    border-radius: 5px;
+    margin: 3px 2px;
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    font-size: 15px;
+
+  }
+
+
+  img {
+    padding: 15px;
+    height: 420px;
+    width: 570px;
+  }
+}
+
+
+
+
+
+
+#layOver    {
+
+  background:rgba(0,0,0,.75);
+  text-align:center;
+  padding: 112px 0 112px 0;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+#aircheck:hover #layOver {
+               opacity:1;}
+
+.tag       {  font-family:Helvetica;
+               }
+

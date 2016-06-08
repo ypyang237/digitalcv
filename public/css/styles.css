@@ -49,21 +49,18 @@ table {
 #header-wrap {
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
   align-items: center; }
-  #header-wrap img {
-    height: 80px; }
-
-#name {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  margin-right: 1000px; }
 
 #nav {
+  margin-left: 75%;
   display: flex;
-  align-items: center;
-  flex: 0 0 auto; }
+  align-items: center; }
   #nav a {
     color: black;
+    margin-left: 10px;
+    font-size: 20px;
     padding: 10px; }
 
 h1 {
@@ -74,7 +71,7 @@ h1 {
 
 .interlude {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
   padding: 10px; }
 
 hr {
@@ -141,6 +138,63 @@ hr {
 #tools {
   height: 180px;
   padding: 20px; }
+
+#portfolio {
+  display: flex;
+  justify-content: center; }
+
+#portfolio-items {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  #portfolio-items #aircheck {
+    height: 600px;
+    width: 600px;
+    background: url(/css/aircheck.png) no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 5% auto 0 auto; }
+  #portfolio-items .titleTag {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 3px 2px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%; }
+  #portfolio-items .tag {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 3px 6px;
+    border-radius: 5px;
+    margin: 3px 2px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 15px; }
+  #portfolio-items img {
+    padding: 15px;
+    height: 420px;
+    width: 570px; }
+
+#layOver {
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  padding: 112px 0 112px 0;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .25s ease; }
+
+#aircheck:hover #layOver {
+  opacity: 1; }
+
+.tag {
+  font-family: Helvetica; }
 
 html {
   font-family: 'Montserrat', sans-serif; }
