@@ -173,19 +173,20 @@ hr {
     font-size: 15px; }
 
 #aircheck {
-  height: 600px;
-  width: 600px;
+  height: 20%;
+  width: 45%;
   background: url(/css/aircheck.png) no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
   overflow: hidden;
   border-radius: 5px;
-  margin: 5% auto 0 auto; }
+  margin: 5% auto 5% auto; }
 
 #layAir {
   background: #00306A;
   text-align: center;
-  padding: 105px 0 105px 0;
+  max-width: 61%;
+  padding: 18%;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 5px;
   opacity: 0;
@@ -196,19 +197,20 @@ hr {
   opacity: 1; }
 
 #expressGallery {
-  height: 600px;
-  width: 600px;
+  height: 350px;
+  width: 632px;
   background: url(/css/express-gallery.png) no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
   overflow: hidden;
   border-radius: 5px;
-  margin: 5% auto 0 auto; }
+  margin: 5% auto 5% auto; }
 
 #layExpress {
   background: #DD0331;
   text-align: center;
-  padding: 105px 0 105px 0;
+  max-width: 53%;
+  padding: 20%;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 5px;
   opacity: 0;
