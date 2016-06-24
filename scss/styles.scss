@@ -1,15 +1,34 @@
 
 @import "partials/reset";
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import './partials/mobile/landing.scss';
-@import './partials/mobile/skills.scss';
-@import './partials/mobile/portfolio.scss';
-@import './partials/mobile/contact.scss';
 
-@import './partials/desktop/landing.scss';
-@import './partials/desktop/skills.scss';
-@import './partials/desktop/portfolio.scss';
-@import './partials/desktop/contact.scss';
+
+
+
+$break-large: 1200px;
+$break-medium: 960px;
+
+@media screen and (min-width: $break-large) {
+
+  @import './partials/desktop/landing.scss';
+  @import './partials/desktop/skills.scss';
+  @import './partials/desktop/portfolio.scss';
+  @import './partials/desktop/contact.scss';
+}
+
+
+// @media screen and (min-width: $break-medium) and (max-width: $break-large) {
+
+// }
+
+
+@media screen and (max-width: $break-medium) {
+
+  @import './partials/mobile/landing.scss';
+  @import './partials/mobile/skills.scss';
+  @import './partials/mobile/portfolio.scss';
+  @import './partials/mobile/contact.scss';
+}
 
 
 html {
