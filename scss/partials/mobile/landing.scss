@@ -1,33 +1,39 @@
-// #header-wrap {
-//   display: flex;
-//   justify-content: space-between;
-//   margin-top: 40px;
-//   margin-bottom: 40px;
-//   align-items: center;
+#header-wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%;
+  align-items: center;
+}
 
-// }
+  #welcome {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
 
-// #nav {
-//   margin-left: 75%;
-//   display: flex;
-//   align-items: center;
+  }
 
+#nav {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 1%;
 
+  a {
+    color: black;
+    margin-left: 2.5px;
+    font-size: 16px;
+    padding: 5%;
+  }
 
-//   a {
-//     color: black;
-//     margin-left: 10px;
-//     font-size: 20px;
-//     padding: 10px;
-//   }
-
-// }
+}
 
 h1 {
   color: green;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  padding: 10px;
+  font-size: 25px;
+  padding: 5px;
 }
 

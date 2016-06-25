@@ -1,0 +1,32 @@
+#header-wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%;
+  align-items: center;
+}
+
+#nav {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+
+  li {
+    color: black;
+    margin-left: 5px;
+    line-height:  30px;
+    font-size: 18px;
+    padding: 2%;
+  }
+
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  padding: 10px;
+}
+

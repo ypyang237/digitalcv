@@ -6,7 +6,7 @@
 
 
 $break-large: 1200px;
-$break-medium: 960px;
+$break-medium: 860px;
 
 @media screen and (min-width: $break-large) {
 
@@ -17,9 +17,14 @@ $break-medium: 960px;
 }
 
 
-// @media screen and (min-width: $break-medium) and (max-width: $break-large) {
+@media screen and (min-width: $break-medium) and (max-width: $break-large) {
 
-// }
+  @import './partials/tablet/landing.scss';
+  @import './partials/tablet/skills.scss';
+  @import './partials/tablet/portfolio.scss';
+  @import './partials/tablet/contact.scss';
+
+}
 
 
 @media screen and (max-width: $break-medium) {
@@ -34,5 +39,3 @@ $break-medium: 960px;
 html {
   font-family: 'Montserrat', sans-serif;
 }
-
-

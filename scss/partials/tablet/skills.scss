@@ -1,0 +1,137 @@
+
+.interlude {
+  text-align: center;
+  margin-top: 85px;
+  padding: 10px;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  width: 20%;
+}
+
+#skills {
+display:flex;
+align-items: space-around;
+text-align: center;
+margin-left: 2%;
+margin-right: 2%;
+
+  h3 {
+    margin-right: 10px;
+    padding: 15px;
+  }
+
+  .img-container {
+  img {
+    height: 40px;
+    padding: 3px;
+  }
+
+}
+
+
+  #lang-frame {
+    .img-container {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 0.5s linear;
+    }
+
+    #js:hover + .img-container{
+        visibility: visible;
+        opacity: 1;
+        margin-left: 20px;
+      }
+
+  }
+
+  #responsive-web {
+    .img-container {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 0.5s linear;
+      margin-left: 40px;
+    }
+
+    #design:hover + .img-container{
+        visibility: visible;
+        opacity: 1;
+        margin-left: 40px;
+      }
+
+  }
+
+  #database {
+    .img-container {
+
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 0.5s linear;
+      margin-left: 60px;
+
+    }
+
+    #db:hover + .img-container{
+        visibility: visible;
+        opacity: 1;
+        margin-left: 60px;
+      }
+
+  }
+
+  #devtools {
+    .img-container {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 0.5s linear;
+    }
+
+    #tools:hover + .img-container{
+        visibility: visible;
+        opacity: 1;
+      }
+
+  }
+
+
+
+}
+
+
+
+#js {
+  margin-top: 10px;
+  margin-bottom: 10%;
+  max-width: 95%;
+  height: auto;
+  padding: 10px;
+}
+
+#design {
+  margin-left: 10px;
+  margin-top: 6.5%;
+  margin-bottom: 18%;
+  max-width: 110%;
+  height: auto;
+  padding: 10px;
+}
+
+#db {
+  margin-left: 50px;
+  margin-top: 8%;
+  margin-bottom: 10%;
+  max-width: 70%;
+  height: auto;
+  padding: 10px;
+}
+
+#tools{
+  margin-top: 2%;
+  margin-bottom: 9%;
+  max-width: 70%;
+  height: auto;
+  padding: 10px;
+}
+
