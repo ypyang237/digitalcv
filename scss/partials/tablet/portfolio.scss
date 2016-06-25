@@ -8,9 +8,10 @@
 
   article {
     display: flex;
-    width: 600px;
-    height: 240px;
-    margin-bottom: 1%;
+    justify-content: center;
+    max-width: 40%;
+    height: 100px;
+    margin-bottom: 8%;
   }
 
 }
@@ -19,39 +20,39 @@
   .titleTag {
     display: inline-block;
     border: 1px solid rgba(255,255,255,.3);
-    padding: 2px 5px;
+    padding: 0.5% 1%;
     border-radius: 5px;
-    margin: 3px 2px;
+    margin: 2% 2%;
     font-weight:900;
     color:rgba(255,255,255,.85);
-    font-size: 30px;
+    font-size: 100%;
     margin-top: 5%;
     margin-bottom: 3%;
   }
 
   .tag {
     display: inline-block;
-    border: 1px solid rgba(255,255,255,.3);
-    padding: 5px 8px;
+    border: 0.5px solid rgba(255,255,255,.3);
+    padding: 0.5% 1%;
     border-radius: 5px;
     margin: 3px 2px;
     font-weight:700;
     color:rgba(255,255,255,.85);
-    font-size: 15px;
+    font-size: 20%;
   }
 
 //aircheck
 
 #aircheck {
-  max-width: 75%;
-  height: 85%;
+  max-width: 80%;
+  height: 100%;
   background: url(/css/aircheck.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   overflow: hidden;
   border-radius: 5px;
   margin-top: 2%;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 #layAir {
@@ -75,15 +76,15 @@
 //express-gallery
 
 #expressGallery {
-  max-width: 73%;
-  height: 85%;
+  max-width: 100%;
+  height: 100%;
   background: url(/css/express-gallery.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   overflow: hidden;
   border-radius: 5px;
   margin-top: 2%;
-  margin-right: 20%;
+  margin-right: 15%;
 }
 
 #layExpress {
@@ -106,15 +107,15 @@
 //mustStash
 
 #mustStash {
-  max-width: 75%;
-  height: 85%;
+  max-width: 120%;
+  height: 100%;
   background: url(/css/must-stash.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   overflow: hidden;
   border-radius: 5px;
   margin-top: 2%;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 #layMust {
@@ -138,14 +139,14 @@
 
 #kanbangular {
   max-width: 75%;
-  height: 80%;
+  height: 100%;
   background: url(/css/kanbangular.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   overflow: hidden;
   border-radius: 5px;
   margin-top: 2%;
-  margin-right: 20%;
+  margin-right: 15%;
 }
 
 #layKan {
@@ -169,14 +170,14 @@
 #reddix {
 
   max-width: 75%;
-  height: 80%;
+  height: 100%;
   background: url(/css/reddix.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   overflow: hidden;
   border-radius: 5px;
   margin-top: 2%;
-  margin-right: 20%;
+  margin-right: 15%;
 }
 
 #layReddix {
@@ -201,14 +202,14 @@
 
 #shoppingList {
   max-width: 75%;
-  height: 80%;
+  height: 100%;
   background: url(/css/shoppingList.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   overflow: hidden;
   border-radius: 5px;
   margin-top: 2%;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 #layShopping {
